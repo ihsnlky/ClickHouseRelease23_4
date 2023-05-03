@@ -1,18 +1,18 @@
 # ClickHouse Release 23.4 New Features
 
 ## Prerequisites: 
-You need to install "Docker Desktop" and "docker-compose" before tests.
+You need to install "Docker Desktop" and "docker-compose" before testing.
 
 ## Steps
-* Clone the repository to your local
+* Clone the repository to your local:
 ```bash
 git clone https://github.com/ihsnlky/ClickHouseRelease23_4.git
 ```
-* Go to the repository directory
+* Go to the repository directory:
 ```bash
 cd ClickHouseRelease23_4
  ```
- * Run the following command to create a Docker container
+ * Run the following command to create a Docker container:
  ```bash
  docker-compose up -d
  ```
@@ -23,6 +23,6 @@ cd ClickHouseRelease23_4
 * **clickhouse01**, **clickhouse02** and **clickhouse03** are on 23.4 version, and **clickhouse04** is on 23.3 which is an older version.
 * **clickhouse01**, **clickhouse02** and **clickhouse03** are configured as replication ready.
 
-* You can use sample dataset(**uk_price_paid**) for tests.
-The installation of this dataset is explained as follow:
+* You can use the sample dataset (**uk_price_paid**) for testing purposes.
+The installation of this dataset is explained as follows:
 https://clickhouse.com/docs/en/getting-started/example-datasets/uk-price-paid
